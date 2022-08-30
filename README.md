@@ -3,27 +3,19 @@
 
 # 1.拉取项目
 
-- wget https://github.com/fengxiaoruia/QL-Emotion-jar/archive/refs/tags/V1.0.0.tar.gz (慢的自行给链接加代理)
+- 初次拉取 请用  https://raw.githubusercontent.com/fengxiaoruia/QL-Emotion-jar/main/QL-Emotion.jar
+- 更新请用 https://raw.githubusercontent.com/fengxiaoruia/QL-Emotion-jar/main/QL-Emotion.jar -O QL-Emotion.jar
 
-- 解压 
+# 2.配置完成后在QL-Emotion.jar目录下
 
-  tar -zxvf V1.0.0.tar.gz(会在同级目录生成  QL-Emotion-jar-1.0.0 文件夹)
+- 启动jar包 java -jar QL-Emotion.jar -- server.port=8080(自己换端口)
 
-- cd QL-Emotion-jar-1.0.0 (进入文件夹)
+- 静默运行:nohup java -jar QL-Emotion.jar -- server.port=8080 > log.out 2>&1 &
 
+- 终止服务 ps -ef 查看QL-Emotion.jar的进程号 通过kill pid 杀掉
+  结束8080端口进程: sudo fuser -k 8080/tcp
 
-
-
-
-# 2.拉取后文件包括
-
-- QL-Emotion.jar
-- config(文件夹)
-  - application.yml (修改端口号以及数据库账号密码)
-  - resources.yml (配置机器人 配置一次即可 启动项目后会同步到数据库中)
-- README.MD
-
-# 3.配置完成后在QL-Emotion.jar目录下执行java -jar QL-Emotion.jar 启动项目 
+- log.out为日志文件 在jar包同级目录 出BUG了可以把这个日志私发我
 
 
 
