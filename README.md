@@ -8,9 +8,9 @@
 
 # 2.配置完成后在QL-Emotion.jar目录下
 
-- 启动jar包 java -jar QL-Emotion.jar -- server.port=8080(自己换端口)
+- 启动jar包 java -jar QL-Emotion.jar --server.port=8080(自己换端口)
 
-- 静默运行:nohup java -jar QL-Emotion.jar -- server.port=8080 > log.out 2>&1 &
+- 静默运行:nohup java -jar QL-Emotion.jar --server.port=8080 > log.out 2>&1 &
 
 - 终止服务 ps -ef 查看QL-Emotion.jar的进程号 通过kill pid 杀掉
   结束8080端口进程: sudo fuser -k 8080/tcp
