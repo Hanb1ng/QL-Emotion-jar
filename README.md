@@ -3,8 +3,9 @@
 
 # 1.拉取项目
 
-- 初次拉取 请用  https://raw.githubusercontent.com/fengxiaoruia/QL-Emotion-jar/main/QL-Emotion.jar
-- 更新请用 https://raw.githubusercontent.com/fengxiaoruia/QL-Emotion-jar/main/QL-Emotion.jar -O QL-Emotion.jar
+- 初次拉取 请用  wget http://gh.301.ee/https://github.com/fengxiaoruia/QL-Emotion-jar/blob/main/QL-Emotion.jar -O QL-Emotion.jar
+- 更新请用 wget  http://gh.301.ee/https://github.com/fengxiaoruia/QL-Emotion-jar/blob/main/QL-Emotion.jar -O QL-Emotion.jar
+- 代理噶了的话自己换哦
 
 
 
